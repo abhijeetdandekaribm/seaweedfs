@@ -23,7 +23,7 @@ jobs:
     strategy:
       matrix:
         goos: [linux]
-        goarch: [amd64]
+        goarch: [amd64, ppc64le]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
